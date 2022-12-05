@@ -2,10 +2,14 @@
 
 
 Library    Browser
+Library    JSONLibrary
 
 Resource    ../resources/pages/login.resource
 Resource    ../resources/components/navbar.resource
 Resource    ../resources/components/toast.resource
+Resource    ../resources/pages/enrolls.resource
+Resource    ../resources/database.resource
+
 
 *** Keywords ***
 
@@ -16,4 +20,11 @@ Do Login
     Submit Credentials
     User Should Be Logged In     ${user}[name]
 
+Get fixtures
+    [Arguments]    ${fixture_file}
     
+    ${fixtures}    Load Json From File
+    ...    ${EXECDIR}/resources/fixtures/${fixture_file}.json
+    ...     encoding=UTF-8
+
+    [Return]    ${fixtures}

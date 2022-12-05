@@ -35,5 +35,9 @@ Fill Start Date 2
         Keyboard Key    press    ${number}
 
     END
-        
+       
 
+submit enrolls Forms
+    
+    Click    css=button >> text=Salvar
+    
