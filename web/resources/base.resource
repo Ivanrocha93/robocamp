@@ -9,6 +9,8 @@ Resource    ../resources/components/navbar.resource
 Resource    ../resources/components/toast.resource
 Resource    ../resources/pages/enrolls.resource
 Resource    ../resources/database.resource
+Resource    ../resources/services/sessions.resource
+Resource    ../resources/services/students.resource
 
 
 *** Keywords ***

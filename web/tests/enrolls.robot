@@ -11,17 +11,18 @@ Resource    ../resources/base.resource
 *** Test Cases ***
 Deve matricular um aluno
     ${admin}    Get fixtures    admin
-    
+    ${falcao}    Get fixtures    falcao
 
-    ${student}    Get fixtures    student
+    Reset student    ${falcao}[student][email]
 
-    Reset student enroll    ${student}[email]
+    ${token}    Get Service Token    ${admin}
+    POST New Student    ${token}    ${falcao}[student]
 
     Do Login       ${admin}
     Go to Enrolls
     Go to Enrolls Forms
-    Select Studant    ${student}[name]
-    Select Plan    ${student}[enroll][plan]
+    Select Studant    ${falcao}[student][name]
+    Select Plan    ${falcao}[enroll][plan]
     Fill Start Date    2022-11-11   
     submit enrolls Forms
     Verify Toaster    Matrícula cadastrada com sucesso
