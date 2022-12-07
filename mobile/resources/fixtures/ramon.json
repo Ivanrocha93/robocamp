@@ -1,0 +1,10 @@
+{
+    "student": {
+        "name": "Ramon dos Santos",
+        "email": "ramon@gmail.com",
+        "age": 29,
+        "feet_tall": 1.70,
+        "weight": 82
+    },
+    "help": "Como faço para ganhar massa muscular?"
+}
