@@ -1,4 +1,7 @@
 *** Settings ***
+
+Documentation    representação do componente barra de navegação
+
 Library    Browser
 
 *** Keywords ***

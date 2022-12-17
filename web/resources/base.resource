@@ -5,12 +5,17 @@ Library    Browser
 Library    JSONLibrary
 
 Resource    ../resources/pages/login.resource
+Resource    ../resources/pages/enrolls.resource
+
 Resource    ../resources/components/navbar.resource
 Resource    ../resources/components/toast.resource
-Resource    ../resources/pages/enrolls.resource
+Resource    ../resources/components/notification.resource
+ 
+
 Resource    ../resources/database.resource
 Resource    ../resources/services/sessions.resource
 Resource    ../resources/services/students.resource
+
 
 
 *** Keywords ***

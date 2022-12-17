@@ -1,0 +1,17 @@
+{
+    "student": {
+        "feet_tall": 162,
+        "weight": 51,
+        "age": 26,
+        "email": "mari96@gmail.com",
+        "name": "Mariana dos Santos"
+    },
+    
+    "enroll": {
+        "plan": "Black"
+    },
+    "question": "Quantos dias na semana devo treinar?",
+    "answer": "No mínimo 3 dias e no máximo 6 dias"
+    
+}
+

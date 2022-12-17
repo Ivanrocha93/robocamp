@@ -1,4 +1,7 @@
 *** Settings ***
+
+Documentation    representação do componente toast
+
 Library    Browser
 
 *** Keywords ***

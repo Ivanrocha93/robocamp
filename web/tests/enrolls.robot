@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation    Suite de testes de matricula - Administrador uma vez logado consegue matricular alunos na academia
 
-Library    Browser
+
 
 Resource    ../resources/base.resource
 
@@ -27,7 +27,7 @@ Deve matricular um aluno
     submit enrolls Forms
     Verify Toaster    Matrícula cadastrada com sucesso
    
-    Sleep    1
+   
     ##${temp}        Get Page Source
     ##Log    ${temp}
     

@@ -4,6 +4,8 @@ Documentation    Verifica se a aplicação está online
 
 Library          Browser
 
+
+
 *** Test Cases ***
 Portal admin deve estar online
     New Browser    headless=False    browser=chromium

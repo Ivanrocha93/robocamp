@@ -1,10 +1,11 @@
 *** Settings ***
 Documentation    Suite de testes de autenticação
 
-Library    Browser
+
 
 Resource    ..//resources/base.resource
     
+
 
 *** Test Cases ***
 
