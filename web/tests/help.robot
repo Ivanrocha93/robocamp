@@ -3,7 +3,6 @@ Documentation        Suite de testes de recebimento de ajuda
 
 Resource    ..//resources/base.resource
 
-Test Teardown    Sleep    2
 
 *** Test Cases ***
 
